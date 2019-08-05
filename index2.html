@@ -1,0 +1,123 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta http-equiv="X-UA-Compatible" content="ie=edge" />
+    <link
+      rel="stylesheet"
+      href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css"
+      integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T"
+      crossorigin="anonymous"
+    />
+    <script src="https://kit.fontawesome.com/d453ef46ba.js"></script>
+    <link rel="stylesheet" href="style.css" />
+    <link rel="stylesheet" href="modal.css" />
+    <title>¿Cuan Nubi eres?</title>
+  </head>
+  <body>
+    <!-- Header -->
+    <div class="container">
+      <div class="encabezado">
+        <h1>
+          ¿Eres muy Nubi? ¿O nada Nubi?...
+        </h1>
+        <p class="p-encabezado">
+          Responde las preguntas y al final dale click a Respuesta!
+        </p>
+        <div id="display"></div>
+      </div>
+
+      <div class="container">
+        <div class="row">
+          <div class="col-sm-4">
+            <div class="card" style="width: 17.3rem;">
+              <img src="/img/white2.jpg" class="card-img-top" alt="..." />
+              <div class="card-header">
+                ¿Te gustan las cositas blanquitas?
+              </div>
+              <ul class="list-group list-group-flush">
+                <li class="list-group-item">
+                  <i
+                    id="yes1"
+                    class="choice1 far fa-thumbs-up fa-2x mx-auto"
+                  ></i>
+                  <i
+                    id="no1"
+                    class="choice1 far fa-thumbs-down fa-2x"
+                    style="float: right"
+                  ></i>
+                </li>
+              </ul>
+            </div>
+          </div>
+          <div class="col-sm-4">
+            <div class="card" style="width: 17.3rem;">
+              <img src="/img/fatty1.jpg" class="card-img-top" alt="..." />
+              <div class="card-header">
+                ¿Te gustan las cositas gorditas?
+              </div>
+              <ul class="list-group list-group-flush">
+                <li class="list-group-item">
+                  <i id="yes2" class="choice2 far fa-thumbs-up fa-2x"></i
+                  ><i
+                    id="no2"
+                    class="choice2 far fa-thumbs-down fa-2x"
+                    style="float: right"
+                  ></i>
+                </li>
+              </ul>
+            </div>
+          </div>
+          <div class="col-sm-4">
+            <div class="card" style="width: 18rem;">
+              <img src="/img/fluffy.jpg" class="card-img-top" alt="..." />
+              <div class="card-header">
+                ¿Te gustan las cositas peluditas?
+              </div>
+              <ul class="list-group list-group-flush">
+                <li class="list-group-item">
+                  <i id="yes3" class="choice3 far fa-thumbs-up fa-2x"></i>
+                  <i
+                    id="no3"
+                    class="choice3 far fa-thumbs-down fa-2x"
+                    style="float: right"
+                  ></i>
+                </li>
+              </ul>
+            </div>
+          </div>
+          <button
+            id="result"
+            type="button"
+            class="btn btn-md btn-primary btn-block mt-3"
+          >
+            Respuesta!
+          </button>
+        </div>
+      </div>
+    </div>
+
+    <!-- Modal -->
+    <div class="modal">
+      <div id="result" class="modal-content"></div>
+    </div>
+
+    <script src="main.js"></script>
+    <script
+      src="https://code.jquery.com/jquery-3.3.1.slim.min.js"
+      integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo"
+      crossorigin="anonymous"
+    ></script>
+    <script
+      src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js"
+      integrity="sha384-UO2eT0CpHqdSJQ6hJty5KVphtPhzWj9WO1clHTMGa3JDZwrnQq4sF86dIHNDz0W1"
+      crossorigin="anonymous"
+    ></script>
+    <script
+      src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js"
+      integrity="sha384-JjSmVgyd0p3pXB1rRibZUAYoIIy6OrQ6VrjIEaFf/nJGzIxFDsf4x0xIM+B07jRM"
+      crossorigin="anonymous"
+    ></script>
+  </body>
+</html>

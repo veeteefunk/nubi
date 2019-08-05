@@ -1,0 +1,71 @@
+.encabezado {
+  padding-top: 25px;
+  padding-bottom: 25px;
+  text-align: center;
+  background: lightgrey;
+  border-radius: 5px;
+  margin-bottom: 25px;
+  margin-top: 20px;
+}
+
+.winning {
+  display: block;
+  background: darkblue;
+  margin: 0px 400px;
+  border-radius: 8px;
+  color: white;
+  padding: 8px 0px;
+}
+
+.losing {
+  display: block;
+  background: darkgray;
+  margin: 0px 360px;
+  border-radius: 8px;
+  color: baclk;
+  padding: 8px 0px;
+}
+
+.p-encabezado {
+  font-size: 1.2rem;
+}
+
+.header-jumbo {
+  padding-top: 5px;
+}
+
+.choice1 {
+  cursor: pointer;
+}
+
+.choice1:hover {
+  color: blue;
+}
+
+.choice1#no1:hover {
+  color: red;
+}
+
+.choice2#no2:hover {
+  color: red;
+}
+
+.choice3#no3:hover {
+  color: red;
+}
+
+.choice2 {
+  cursor: pointer;
+}
+
+.choice2:hover {
+  color: blue;
+}
+
+.choice3 {
+  cursor: pointer;
+}
+
+.choice3:hover {
+  color: blue;
+}
